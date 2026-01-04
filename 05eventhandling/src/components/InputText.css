@@ -1,0 +1,32 @@
+.input-text-card {
+    background-color: #fff3e0;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+  
+  .input-text-card input {
+    padding: 8px;
+    width: 70%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .input-text-card button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ff9800;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .input-text-card button:hover {
+    background-color: #f57c00;
+  }
+  

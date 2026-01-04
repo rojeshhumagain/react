@@ -1,0 +1,25 @@
+.event-buttons-card {
+    background-color: #e0f7fa;
+    border-radius: 15px;
+    padding: 20px;
+    width: 250px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+  
+  .event-buttons-card button {
+    margin: 5px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #00796b;
+    color: white;
+  }
+  
+  .event-buttons-card button:hover {
+    background-color: #004d40;
+  }
+  
