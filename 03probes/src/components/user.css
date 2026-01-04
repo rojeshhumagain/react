@@ -1,0 +1,16 @@
+.user-card {
+    background-color: #f0f8ff;
+    border: 2px solid #4caf50;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s;
+  }
+  
+  .user-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  }
+  
