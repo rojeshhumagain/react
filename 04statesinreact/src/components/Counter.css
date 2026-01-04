@@ -1,0 +1,25 @@
+.counter-card {
+    background-color: #f0f8ff;
+    border-radius: 15px;
+    padding: 20px;
+    width: 250px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  }
+  
+  .counter-card button {
+    margin: 5px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #2575fc;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .counter-card button:hover {
+    background-color: #6a11cb;
+  }
+  

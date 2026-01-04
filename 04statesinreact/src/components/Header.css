@@ -1,0 +1,27 @@
+.header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header nav {
+    margin-top: 10px;
+  }
+  
+  .header button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .header button:hover {
+    background-color: #fff;
+    color: #ff7e5f;
+  }
+  
