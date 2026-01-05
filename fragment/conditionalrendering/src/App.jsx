@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 
 const App = () => {
-  const foodItems = ['apple','banana','berry'];
+  const foodItems = ['apple','banana'];
 
  
   return (
