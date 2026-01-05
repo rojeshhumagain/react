@@ -1,0 +1,19 @@
+.courseTable {
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.courseTable th {
+  text-align: center;
+}
+
+.courseTable td {
+  text-align: center;
+  font-weight: 500;
+}
+
+.courseTable tr:hover {
+  background-color: #f1f5ff;
+  transition: 0.3s;
+}
