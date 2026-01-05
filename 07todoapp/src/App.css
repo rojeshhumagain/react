@@ -1,0 +1,116 @@
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, #28a745, #218838); /* green gradient */
+    -webkit-background-clip: text;       /* make gradient visible on text */
+    -webkit-text-fill-color: transparent; /* hide the original color */
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* AddItems row layout */
+.add-row {
+    display: flex;
+    gap: 10px;               /* space between inputs and button */
+    align-items: center;     /* vertically center items */
+    margin-bottom: 20px;
+}
+
+/* Text input */
+.add-input {
+    flex: 2;                 /* takes 2 parts of the row */
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+/* Date input */
+.add-input-date {
+    flex: 1;                 /* takes 1 part of the row */
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+/* Add button */
+.add-btn {
+    flex: 1;                 /* takes 1 part of the row */
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.add-btn:hover {
+    background-color: #218838;
+}
+
+/* DisplayItems container row */
+.todo-row {
+    display: flex;
+    align-items: center;        /* vertical alignment */
+    gap: 10px;                  /* space between columns */
+    background-color: #f8f9fa;  /* light gray row */
+    padding: 12px 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+/* Hover effect for rows */
+.todo-row:hover {
+    background-color: #e9ecef;
+}
+
+/* Todo item name column */
+.todo-name {
+    flex: 2;                    /* takes 2 parts of the row */
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Todo date column */
+.todo-date {
+    flex: 1;                    /* takes 1 part of the row */
+    font-size: 0.95rem;
+    color: #555;
+}
+
+/* Delete button */
+.todo-delete {
+    flex: 1;                    /* takes 1 part of the row */
+    padding: 8px 12px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: 0.3s;
+}
+
+/* Hover effect for delete button */
+.todo-delete:hover {
+    background-color: #c82333;
+    transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .todo-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    .todo-name, .todo-date, .todo-delete {
+        flex: none;
+        width: 100%;
+    }
+}
